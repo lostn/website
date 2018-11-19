@@ -1,0 +1,68 @@
+/*<-- ============================================ 
+    File:     darkpurple.css
+    Brief:  Adds specified color scheme / style to the website
+  =========================================== --> */
+  
+body{
+	background: #fafafa url(../images/layout/dark_purple/bg.jpg) repeat-x;
+}
+
+a{
+	color: #41304f;
+}
+
+a:hover{
+	color: #373737;
+}
+
+.button,
+a.button{
+	background: #efefef url(../images/layout/dark_purple/button.jpg) no-repeat right top;
+}
+
+.button:hover,
+a.button:hover{
+	color:#41304f;
+	background: #efefef url(../images/layout/dark_purple/button.jpg) no-repeat right -26px;
+}
+
+	/* ============================================ Header- Navigation*/	
+	#navigation li a:hover{
+		color:#41304f;
+	}
+	#navigation li#magic-line{
+		background:#41304f;
+	}
+/* ============================================ Container Styled-Bar / Pagetrail*/			
+	#bar{
+		background: url(../images/layout/dark_purple/container-bar.gif) no-repeat;
+	}
+	#bar-bot{
+		background: url(../images/layout/dark_purple/container-bar-bot.gif) no-repeat;
+	}
+/* ============================================ Feature*/			
+	#f-button li a{
+		background: url(../images/layout/dark_purple/feature-button.gif) no-repeat ;
+	}
+	#f-button li a:hover, #f-button li a.activeSlide{
+		background: url(../images/layout/dark_purple/feature-button.gif) no-repeat -15px 0;
+	}
+	
+/* ============================================ Pages*/	
+	#page .block{
+			background:#41304f;
+		}	
+	/* ============================================ Pages - News Articles - Single Post Comments*/
+	#comments .comment-reply a:hover{
+		color:#2aa6cc;
+	}
+	
+		/* ============================================ Pages - PageNav*/	
+		#page .pagenav ul li a:hover{
+			color:#41304f;
+		}
+
+	/* ========== Sidebar Widget Tags*/
+		#sidebar .tag1:hover,#sidebar .tag2:hover, #sidebar .tag3:hover, #sidebar .tag4:hover, #sidebar .tag5 :hover {
+			color:#41304f;
+		}

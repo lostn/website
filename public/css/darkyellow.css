@@ -1,0 +1,68 @@
+/*<-- ============================================ 
+    File:     darkyellowcss
+    Brief:  Adds specified color scheme / style to the website
+  =========================================== --> */
+  
+body{
+	background: #fafafa url(../images/layout/dark_yellow/bg.jpg) repeat-x;
+}
+
+a{
+	color: #68682c;
+}
+
+a:hover{
+	color: #373737;
+}
+
+.button,
+a.button{
+	background: #efefef url(../images/layout/dark_yellow/button.jpg) no-repeat right top;
+}
+
+.button:hover,
+a.button:hover{
+	color:#68682c;
+	background: #efefef url(../images/layout/dark_yellow/button.jpg) no-repeat right -26px;
+}
+
+	/* ============================================ Header- Navigation*/	
+	#navigation li a:hover{
+		color:#68682c;
+	}
+	#navigation li#magic-line{
+		background:#68682c;
+	}
+/* ============================================ Container Styled-Bar / Pagetrail*/			
+	#bar{
+		background: url(../images/layout/dark_yellow/container-bar.gif) no-repeat;
+	}
+	#bar-bot{
+		background: url(../images/layout/dark_yellow/container-bar-bot.gif) no-repeat;
+	}
+/* ============================================ Feature*/			
+	#f-button li a{
+		background: url(../images/layout/dark_yellow/feature-button.gif) no-repeat ;
+	}
+	#f-button li a:hover, #f-button li a.activeSlide{
+		background: url(../images/layout/dark_yellow/feature-button.gif) no-repeat -15px 0;
+	}
+	
+/* ============================================ Pages*/	
+	#page .block{
+			background:#68682c;
+		}	
+	/* ============================================ Pages - News Articles - Single Post Comments*/
+	#comments .comment-reply a:hover{
+		color:#2aa6cc;
+	}
+	
+		/* ============================================ Pages - PageNav*/	
+		#page .pagenav ul li a:hover{
+			color:#68682c;
+		}
+
+	/* ========== Sidebar Widget Tags*/
+		#sidebar .tag1:hover,#sidebar .tag2:hover, #sidebar .tag3:hover, #sidebar .tag4:hover, #sidebar .tag5 :hover {
+			color:#68682c;
+		}

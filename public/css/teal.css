@@ -1,0 +1,68 @@
+/*<-- ============================================ 
+    File:     teal.css
+    Brief:  Adds specified color scheme / style to the website
+  =========================================== --> */
+  
+body{
+	background: #fafafa url(../images/layout/teal/bg.jpg) repeat-x;
+}
+
+a{
+	color: #0a7170;
+}
+
+a:hover{
+	color: #373737;
+}
+
+.button,
+a.button{
+	background: #efefef url(../images/layout/teal/button.jpg) no-repeat right top;
+}
+
+.button:hover,
+a.button:hover{
+	color:#0a7170;
+	background: #efefef url(../images/layout/teal/button.jpg) no-repeat right -26px;
+}
+
+	/* ============================================ Header- Navigation*/	
+	#navigation li a:hover{
+		color:#0a7170;
+	}
+	#navigation li#magic-line{
+		background:#0a7170;
+	}
+/* ============================================ Container Styled-Bar / Pagetrail*/			
+	#bar{
+		background: url(../images/layout/teal/container-bar.gif) no-repeat;
+	}
+	#bar-bot{
+		background: url(../images/layout/teal/container-bar-bot.gif) no-repeat;
+	}
+/* ============================================ Feature*/			
+	#f-button li a{
+		background: url(../images/layout/teal/feature-button.gif) no-repeat ;
+	}
+	#f-button li a:hover, #f-button li a.activeSlide{
+		background: url(../images/layout/teal/feature-button.gif) no-repeat -15px 0;
+	}
+	
+/* ============================================ Pages*/	
+	#page .block{
+			background:#0a7170;
+		}	
+	/* ============================================ Pages - News Articles - Single Post Comments*/
+	#comments .comment-reply a:hover{
+		color:#2aa6cc;
+	}
+	
+		/* ============================================ Pages - PageNav*/	
+		#page .pagenav ul li a:hover{
+			color:#0a7170;
+		}
+
+	/* ========== Sidebar Widget Tags*/
+		#sidebar .tag1:hover,#sidebar .tag2:hover, #sidebar .tag3:hover, #sidebar .tag4:hover, #sidebar .tag5 :hover {
+			color:#0a7170;
+		}

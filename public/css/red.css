@@ -1,0 +1,68 @@
+/*<-- ============================================ 
+    File:     red.css
+    Brief:  Adds specified color scheme / style to the website
+  =========================================== --> */
+  
+body{
+	background: #fafafa url(../images/layout/red/bg.jpg) repeat-x;
+}
+
+a{
+	color: #c2110e;
+}
+
+a:hover{
+	color: #373737;
+}
+
+.button,
+a.button{
+	background: #efefef url(../images/layout/red/button.jpg) no-repeat right top;
+}
+
+.button:hover,
+a.button:hover{
+	color:#c2110e;
+	background: #efefef url(../images/layout/red/button.jpg) no-repeat right -26px;
+}
+
+	/* ============================================ Header- Navigation*/	
+	#navigation li a:hover{
+		color:#c2110e;
+	}
+	#navigation li#magic-line{
+		background:#c2110e;
+	}
+/* ============================================ Container Styled-Bar / Pagetrail*/			
+	#bar{
+		background: url(../images/layout/red/container-bar.gif) no-repeat;
+	}
+	#bar-bot{
+		background: url(../images/layout/red/container-bar-bot.gif) no-repeat;
+	}
+/* ============================================ Feature*/			
+	#f-button li a{
+		background: url(../images/layout/red/feature-button.gif) no-repeat ;
+	}
+	#f-button li a:hover, #f-button li a.activeSlide{
+		background: url(../images/layout/red/feature-button.gif) no-repeat -15px 0;
+	}
+	
+/* ============================================ Pages*/	
+	#page .block{
+			background:#c2110e;
+		}	
+	/* ============================================ Pages - News Articles - Single Post Comments*/
+	#comments .comment-reply a:hover{
+		color:#2aa6cc;
+	}
+	
+		/* ============================================ Pages - PageNav*/	
+		#page .pagenav ul li a:hover{
+			color:#c2110e;
+		}
+
+	/* ========== Sidebar Widget Tags*/
+		#sidebar .tag1:hover,#sidebar .tag2:hover, #sidebar .tag3:hover, #sidebar .tag4:hover, #sidebar .tag5 :hover {
+			color:#c2110e;
+		}
